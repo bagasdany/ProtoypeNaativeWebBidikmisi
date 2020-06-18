@@ -1,0 +1,94 @@
+.captcha-image{
+    float: left ;
+}
+.refresh-captcha-image{
+    float: left;
+    margin: 6px 12px;
+    color: #001F3F !important;
+    cursor: pointer;
+}
+.refresh-captcha-image:hover{
+    cursor: pointer;   
+}
+.login-page{
+    background: #26909a;
+    background-image: url(../img/login.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.login-logo a div.logo-title{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #FFFFFF !important;
+    text-shadow: 2px 2px 10px #ecf6f7;
+}
+.login-box-body{
+    background: rgba(255,255,255,0.9);
+    border-radius: 8px;
+}
+.text-danger{
+    color: #FF0000 !important;
+}
+.skin-blue-light .main-header .navbar{
+    background: #001f3f;
+    background-image: linear-gradient(to right, #001f3f, #053261, #07478a, #0b5cb1, #3c8dbc)
+}
+.skin-blue-light .main-header .navbar .sidebar-toggle:hover {
+    background: #001f3f !important;
+}
+.skin-blue-light .main-header .logo{
+    background: #001f3f !important;
+}
+.skin-blue-light .main-header li.user-header{
+    background: #1566b4 !important;
+}
+.logo-lg{
+    font-size:15px;line-height: 20px;padding-top:8px;
+}
+.sidebar-collapse #tampil_tanggal_waktu{
+    display: none;
+}
+.loop-prestasi{
+    border-top:2px dashed #001f3f;
+    padding-top:15px;
+}
+.loop-organisasi{
+    border-top:2px dashed #001f3f;
+    padding-top:15px;
+}
+.spacer{
+    border-top:2px dashed #DDD;
+    margin:15px 0px;
+}
+.table>caption+thead>tr:first-child>td, 
+.table>caption+thead>tr:first-child>th, 
+.table>colgroup+thead>tr:first-child>td, 
+.table>colgroup+thead>tr:first-child>th, 
+.table>thead:first-child>tr:first-child>td, 
+.table>thead:first-child>tr:first-child>th {
+    background: #0a539e;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.table-bordered>thead>tr>th, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>tbody>tr>td, 
+.table-bordered>tfoot>tr>td{
+    padding: 6px;
+    font-size: 13px;
+}
+.bg-aqua, .callout.callout-info, .alert-info, .label-info, .modal-info .modal-body {
+    background-color: #001f3f !important;
+}
+
+@media (max-width: 767px){
+    .skin-blue-light .main-header .logo{
+        background: #001f3f !important;
+    }
+    .skin-blue-light .main-header .navbar{
+        background: #001f3f !important;   
+    }
+}
